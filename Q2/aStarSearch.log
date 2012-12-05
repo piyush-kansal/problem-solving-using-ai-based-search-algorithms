@@ -1,0 +1,873 @@
+Choose Heuristic type ::
+Number of misplaced tiles - 1
+Location of Bs - 2
+
+Enter(1/2) :: You have chosen "Number of misplaced tiles" heuristic
+
+
+Nodes being traversed are (ValueOfAllTiles|f(n)|g(n)|h(n)) ::
+Popped from PQ :: BBB_WWW|6|0|6
+ ** B_BBWWW|8|2|6
+ ** BB_BWWW|7|1|6
+ ** BBBW_WW|7|1|6
+ ** BBBWW_W|8|2|6
+
+Popped from PQ :: BB_BWWW|7|1|6
+ ** _BBBWWW|9|3|6
+ ** BBWB_WW|7|3|4
+
+Popped from PQ :: BBBW_WW|7|1|6
+ ** BB_WBWW|9|3|6
+ ** BBBWWW_|9|3|6
+
+Popped from PQ :: BBWB_WW|7|3|4
+ ** BBW_BWW|8|4|4
+ ** BBWBW_W|8|4|4
+ ** BBWBWW_|9|5|4
+
+Popped from PQ :: BBBWW_W|8|2|6
+
+Popped from PQ :: BBW_BWW|8|4|4
+ ** B_WBBWW|10|6|4
+ ** BBWWB_W|10|6|4
+
+Popped from PQ :: BBWBW_W|8|4|4
+ ** BBW_WBW|10|6|4
+
+Popped from PQ :: B_BBWWW|8|2|6
+
+Popped from PQ :: BBBWWW_|9|3|6
+
+Popped from PQ :: BBWBWW_|9|5|4
+
+Popped from PQ :: BB_WBWW|9|3|6
+ ** _BBWBWW|11|5|6
+ ** B_BWBWW|10|4|6
+
+Popped from PQ :: _BBBWWW|9|3|6
+
+Popped from PQ :: BBW_WBW|10|6|4
+ ** B_WBWBW|12|8|4
+ ** BB_WWBW|13|7|6
+ ** BBWW_BW|11|7|4
+
+Popped from PQ :: B_BWBWW|10|4|6
+ ** BWB_BWW|10|6|4
+
+Popped from PQ :: B_WBBWW|10|6|4
+ ** _BWBBWW|11|7|4
+ ** BW_BBWW|11|7|4
+
+Popped from PQ :: BWB_BWW|10|6|4
+ ** BWBB_WW|11|7|4
+ ** BWBWB_W|12|8|4
+
+Popped from PQ :: BBWWB_W|10|6|4
+ ** BBWWBW_|11|7|4
+
+Popped from PQ :: _BBWBWW|11|5|6
+
+Popped from PQ :: _BWBBWW|11|7|4
+ ** WB_BBWW|13|9|4
+
+Popped from PQ :: BBWWBW_|11|7|4
+ ** BBWW_WB|13|9|4
+
+Popped from PQ :: BWBB_WW|11|7|4
+ ** BWBBW_W|12|8|4
+ ** BWBBWW_|13|9|4
+
+Popped from PQ :: BBWW_BW|11|7|4
+ ** BBWWWB_|13|9|4
+
+Popped from PQ :: BW_BBWW|11|7|4
+ ** _WBBBWW|13|9|4
+
+Popped from PQ :: BWBWB_W|12|8|4
+ ** BWBW_BW|13|9|4
+ ** BWBWBW_|13|9|4
+
+Popped from PQ :: B_WBWBW|12|8|4
+ ** _BWBWBW|13|9|4
+ ** BW_BWBW|13|9|4
+
+Popped from PQ :: BWBBW_W|12|8|4
+ ** BWB_WBW|14|10|4
+
+Popped from PQ :: WB_BBWW|13|9|4
+ ** W_BBBWW|14|10|4
+ ** WBB_BWW|14|10|4
+ ** WBBB_WW|15|11|4
+
+Popped from PQ :: BBWWWB_|13|9|4
+ ** BBWWW_B|14|10|4
+
+Popped from PQ :: BW_BWBW|13|9|4
+ ** _WBBWBW|15|11|4
+ ** BWWB_BW|13|11|2
+
+Popped from PQ :: BB_WWBW|13|7|6
+ ** _BBWWBW|15|9|6
+ ** B_BWWBW|14|8|6
+
+Popped from PQ :: BWWB_BW|13|11|2
+ ** BWW_BBW|14|12|2
+ ** BWWBB_W|14|12|2
+ ** BWWBWB_|15|13|2
+
+Popped from PQ :: BWBBWW_|13|9|4
+
+Popped from PQ :: BWBWBW_|13|9|4
+ ** BWBW_WB|15|11|4
+
+Popped from PQ :: _BWBWBW|13|9|4
+ ** WB_BWBW|15|11|4
+
+Popped from PQ :: BBWW_WB|13|9|4
+ ** BB_WWWB|17|11|6
+ ** BBW_WWB|14|10|4
+
+Popped from PQ :: BWBW_BW|13|9|4
+ ** BW_WBBW|15|11|4
+ ** BWBWWB_|15|11|4
+
+Popped from PQ :: _WBBBWW|13|9|4
+
+Popped from PQ :: BWB_WBW|14|10|4
+
+Popped from PQ :: BBWWW_B|14|10|4
+
+Popped from PQ :: BWW_BBW|14|12|2
+ ** B_WWBBW|18|14|4
+
+Popped from PQ :: WBB_BWW|14|10|4
+ ** WBBWB_W|16|12|4
+
+Popped from PQ :: W_BBBWW|14|10|4
+
+Popped from PQ :: B_BWWBW|14|8|6
+
+Popped from PQ :: BWWBB_W|14|12|2
+ ** BWWBBW_|15|13|2
+
+Popped from PQ :: BBW_WWB|14|10|4
+ ** B_WBWWB|16|12|4
+
+Popped from PQ :: BWBWWB_|15|11|4
+ ** BWBWW_B|16|12|4
+
+Popped from PQ :: _BBWWBW|15|9|6
+
+Popped from PQ :: BWWBBW_|15|13|2
+ ** BWWB_WB|17|15|2
+
+Popped from PQ :: _WBBWBW|15|11|4
+ ** W_BBWBW|16|12|4
+
+Popped from PQ :: WBBB_WW|15|11|4
+ ** WBBBW_W|16|12|4
+ ** WBBBWW_|17|13|4
+
+Popped from PQ :: BWWBWB_|15|13|2
+ ** BWWBW_B|16|14|2
+
+Popped from PQ :: BWBW_WB|15|11|4
+ ** BW_WBWB|17|13|4
+ ** BWB_WWB|16|12|4
+
+Popped from PQ :: WB_BWBW|15|11|4
+ ** WBB_WBW|16|12|4
+ ** WBWB_BW|15|13|2
+
+Popped from PQ :: BW_WBBW|15|11|4
+ ** _WBWBBW|17|13|4
+ ** B_WWBBW|16|12|4
+
+Popped from PQ :: WBWB_BW|15|13|2
+ ** WBW_BBW|16|14|2
+ ** WBWBB_W|16|14|2
+ ** WBWBWB_|17|15|2
+
+Popped from PQ :: B_WBWWB|16|12|4
+ ** _BWBWWB|17|13|4
+ ** BW_BWWB|17|13|4
+
+Popped from PQ :: WBB_WBW|16|12|4
+ ** WBBW_BW|17|13|4
+
+Popped from PQ :: BWB_WWB|16|12|4
+ ** B_BWWWB|20|14|6
+
+Popped from PQ :: B_WWBBW|16|12|4
+ ** _BWWBBW|17|13|4
+
+Popped from PQ :: BWBWW_B|16|12|4
+
+Popped from PQ :: WBBBW_W|16|12|4
+
+Popped from PQ :: W_BBWBW|16|12|4
+
+Popped from PQ :: WBBWB_W|16|12|4
+ ** WBBWBW_|17|13|4
+
+Popped from PQ :: BWWBW_B|16|14|2
+ ** BWW_WBB|18|16|2
+
+Popped from PQ :: WBWBB_W|16|14|2
+ ** WBWBBW_|17|15|2
+
+Popped from PQ :: WBW_BBW|16|14|2
+ ** W_WBBBW|18|16|2
+ ** WB_WBBW|19|15|4
+
+Popped from PQ :: _WBWBBW|17|13|4
+ ** W_BWBBW|18|14|4
+
+Popped from PQ :: BW_BWWB|17|13|4
+ ** _WBBWWB|19|15|4
+
+Popped from PQ :: _BWWBBW|17|13|4
+
+Popped from PQ :: WBWBBW_|17|15|2
+ ** WBWB_WB|19|17|2
+
+Popped from PQ :: WBWBWB_|17|15|2
+ ** WBWBW_B|18|16|2
+
+Popped from PQ :: BW_WBWB|17|13|4
+ ** _WBWBWB|19|15|4
+ ** B_WWBWB|18|14|4
+ ** BWW_BWB|16|14|2
+
+Popped from PQ :: BWW_BWB|16|14|2
+ ** BWWWB_B|18|16|2
+
+Popped from PQ :: WBBW_BW|17|13|4
+ ** WBBWWB_|19|15|4
+
+Popped from PQ :: BWWB_WB|17|15|2
+
+Popped from PQ :: WBBWBW_|17|13|4
+ ** WBBW_WB|19|15|4
+
+Popped from PQ :: BB_WWWB|17|11|6
+ ** _BBWWWB|19|13|6
+ ** B_BWWWB|18|12|6
+
+Popped from PQ :: WBBBWW_|17|13|4
+
+Popped from PQ :: _BWBWWB|17|13|4
+ ** WB_BWWB|19|15|4
+
+Popped from PQ :: W_BWBBW|18|14|4
+ ** WWB_BBW|18|16|2
+
+Popped from PQ :: WBWBW_B|18|16|2
+ ** WBW_WBB|20|18|2
+
+Popped from PQ :: W_WBBBW|18|16|2
+ ** _WWBBBW|19|17|2
+ ** WW_BBBW|19|17|2
+
+Popped from PQ :: B_WWBBW|18|14|4
+
+Popped from PQ :: BWWWB_B|18|16|2
+ ** BWWW_BB|19|17|2
+ ** BWWWBB_|19|17|2
+
+Popped from PQ :: BWW_WBB|18|16|2
+ ** B_WWWBB|22|18|4
+ ** BW_WWBB|21|17|4
+
+Popped from PQ :: B_WWBWB|18|14|4
+ ** _BWWBWB|19|15|4
+
+Popped from PQ :: B_BWWWB|18|12|6
+
+Popped from PQ :: WWB_BBW|18|16|2
+ ** WWBB_BW|19|17|2
+ ** WWBBB_W|20|18|2
+
+Popped from PQ :: WB_WBBW|19|15|4
+
+Popped from PQ :: _BBWWWB|19|13|6
+
+Popped from PQ :: _WBWBWB|19|15|4
+ ** W_BWBWB|20|16|4
+
+Popped from PQ :: _WBBWWB|19|15|4
+ ** W_BBWWB|20|16|4
+
+Popped from PQ :: WWBB_BW|19|17|2
+ ** WWBBWB_|21|19|2
+
+Popped from PQ :: BWWWBB_|19|17|2
+
+Popped from PQ :: WBWB_WB|19|17|2
+ ** WBW_BWB|20|18|2
+
+Popped from PQ :: WB_BWWB|19|15|4
+ ** WBB_WWB|20|16|4
+
+Popped from PQ :: WBBW_WB|19|15|4
+ ** WB_WBWB|21|17|4
+ ** WBBWW_B|20|16|4
+
+Popped from PQ :: WBBWWB_|19|15|4
+
+Popped from PQ :: WW_BBBW|19|17|2
+
+Popped from PQ :: _WWBBBW|19|17|2
+
+Popped from PQ :: _BWWBWB|19|15|4
+
+Popped from PQ :: BWWW_BB|19|17|2
+
+Popped from PQ :: WWBBB_W|20|18|2
+ ** WWBBBW_|21|19|2
+
+Popped from PQ :: W_BWBWB|20|16|4
+ ** WWB_BWB|20|18|2
+
+Popped from PQ :: B_BWWWB|20|14|6
+
+Popped from PQ :: W_BBWWB|20|16|4
+
+Popped from PQ :: WWB_BWB|20|18|2
+ ** WW_BBWB|21|19|2
+ ** WWBB_WB|21|19|2
+ ** WWBWB_B|22|20|2
+
+Popped from PQ :: WBW_WBB|20|18|2
+ ** W_WBWBB|22|20|2
+ ** WB_WWBB|23|19|4
+ ** WBWW_BB|21|19|2
+
+Popped from PQ :: WBB_WWB|20|16|4
+
+Popped from PQ :: WBW_BWB|20|18|2
+ ** W_WBBWB|22|20|2
+ ** WBWWB_B|22|20|2
+
+Popped from PQ :: WBBWW_B|20|16|4
+
+Popped from PQ :: WWBBWB_|21|19|2
+ ** WWBBW_B|22|20|2
+
+Popped from PQ :: BW_WWBB|21|17|4
+ ** _WBWWBB|23|19|4
+
+Popped from PQ :: WWBBBW_|21|19|2
+
+Popped from PQ :: WWBB_WB|21|19|2
+
+Popped from PQ :: WW_BBWB|21|19|2
+ ** _WWBBWB|23|21|2
+
+Popped from PQ :: WB_WBWB|21|17|4
+
+Popped from PQ :: WBWW_BB|21|19|2
+ ** WBWWBB_|23|21|2
+
+Popped from PQ :: WBWWB_B|22|20|2
+
+Popped from PQ :: WWBBW_B|22|20|2
+ ** WWB_WBB|24|22|2
+
+Popped from PQ :: W_WBWBB|22|20|2
+ ** _WWBWBB|23|21|2
+ ** WW_BWBB|23|21|2
+
+Popped from PQ :: WWBWB_B|22|20|2
+ ** WWBW_BB|23|21|2
+ ** WWBWBB_|23|21|2
+
+Popped from PQ :: B_WWWBB|22|18|4
+ ** _BWWWBB|23|19|4
+
+Popped from PQ :: W_WBBWB|22|20|2
+
+Popped from PQ :: _WWBBWB|23|21|2
+
+Popped from PQ :: _WBWWBB|23|19|4
+ ** W_BWWBB|24|20|4
+
+Popped from PQ :: _BWWWBB|23|19|4
+
+Popped from PQ :: WWBWBB_|23|21|2
+
+Popped from PQ :: WW_BWBB|23|21|2
+ ** WWWB_BB|23|23|0
+
+Popped from PQ :: WBWWBB_|23|21|2
+
+Popped from PQ :: WWWB_BB|23|23|0
+And that's the GOAL !!
+// --- STATISTICS --- //
+Goal -	WWWB_BB
+f(n) -	23
+Path -	BBB_WWW
+	* BB_BWWW
+	** BBWB_WW
+	*** BBWBW_W
+	**** BBW_WBW
+	***** B_WBWBW
+	****** _BWBWBW
+	******* WB_BWBW
+	******** WBWB_BW
+	********* WBWBWB_
+	********** WBWBW_B
+	*********** WBW_WBB
+	************ W_WBWBB
+	************* WW_BWBB
+	************** WWWB_BB
+Total number of nodes in the path 	:: 15
+Total number of nodes expanded 		:: 136
+Size of each node(B) 			:: 40
+Memory consumed(B) 			:: 5440
+Time of execution(micro-sec) 		:: 12187
+
+
+Choose Heuristic type ::
+Number of misplaced tiles - 1
+Location of Bs - 2
+
+Enter(1/2) :: You have chosen "Location of Bs" heuristic
+
+
+Nodes being traversed are (ValueOfAllTiles|f(n)|g(n)|h(n)) ::
+Popped from PQ :: BBB_WWW|12|0|12
+ ** B_BBWWW|9|2|7
+ ** BB_BWWW|9|1|8
+ ** BBBW_WW|10|1|9
+ ** BBBWW_W|11|2|9
+
+Popped from PQ :: B_BBWWW|9|2|7
+ ** _BBBWWW|9|3|6
+
+Popped from PQ :: BB_BWWW|9|1|8
+ ** BBWB_WW|11|3|8
+
+Popped from PQ :: _BBBWWW|9|3|6
+
+Popped from PQ :: BBBW_WW|10|1|9
+ ** BB_WBWW|10|3|7
+ ** BBBWWW_|12|3|9
+
+Popped from PQ :: BB_WBWW|10|3|7
+ ** _BBWBWW|10|5|5
+ ** B_BWBWW|10|4|6
+ ** BBW_BWW|11|4|7
+
+Popped from PQ :: _BBWBWW|10|5|5
+
+Popped from PQ :: B_BWBWW|10|4|6
+ ** BWB_BWW|12|6|6
+
+Popped from PQ :: BBW_BWW|11|4|7
+ ** B_WBBWW|11|6|5
+ ** BBWWB_W|13|6|7
+
+Popped from PQ :: BBBWW_W|11|2|9
+
+Popped from PQ :: BBWB_WW|11|3|8
+ ** BBWBW_W|12|4|8
+ ** BBWBWW_|13|5|8
+
+Popped from PQ :: B_WBBWW|11|6|5
+ ** _BWBBWW|11|7|4
+ ** BW_BBWW|12|7|5
+
+Popped from PQ :: _BWBBWW|11|7|4
+ ** WB_BBWW|13|9|4
+
+Popped from PQ :: BBBWWW_|12|3|9
+
+Popped from PQ :: BW_BBWW|12|7|5
+ ** _WBBBWW|12|9|3
+ ** BWBB_WW|16|9|7
+
+Popped from PQ :: BWB_BWW|12|6|6
+ ** BWBB_WW|14|7|7
+ ** BWBWB_W|14|8|6
+
+Popped from PQ :: _WBBBWW|12|9|3
+ ** W_BBBWW|13|10|3
+
+Popped from PQ :: BBWBW_W|12|4|8
+ ** BBW_WBW|12|6|6
+
+Popped from PQ :: BBW_WBW|12|6|6
+ ** B_WBWBW|12|8|4
+ ** BB_WWBW|13|7|6
+ ** BBWW_BW|13|7|6
+
+Popped from PQ :: B_WBWBW|12|8|4
+ ** _BWBWBW|12|9|3
+ ** BW_BWBW|13|9|4
+
+Popped from PQ :: _BWBWBW|12|9|3
+ ** WB_BWBW|14|11|3
+
+Popped from PQ :: BBWWB_W|13|6|7
+ ** BBWWBW_|14|7|7
+
+Popped from PQ :: W_BBBWW|13|10|3
+ ** WBB_BWW|17|12|5
+
+Popped from PQ :: BBWW_BW|13|7|6
+ ** BBWWWB_|15|9|6
+
+Popped from PQ :: BW_BWBW|13|9|4
+ ** _WBBWBW|13|11|2
+ ** BWB_WBW|15|10|5
+ ** BWWB_BW|15|11|4
+
+Popped from PQ :: BBWBWW_|13|5|8
+
+Popped from PQ :: BB_WWBW|13|7|6
+ ** _BBWWBW|13|9|4
+ ** B_BWWBW|13|8|5
+
+Popped from PQ :: _WBBWBW|13|11|2
+ ** W_BBWBW|14|12|2
+
+Popped from PQ :: _BBWWBW|13|9|4
+
+Popped from PQ :: B_BWWBW|13|8|5
+
+Popped from PQ :: WB_BBWW|13|9|4
+ ** WBB_BWW|15|10|5
+ ** WBBB_WW|17|11|6
+
+Popped from PQ :: BWBWB_W|14|8|6
+ ** BWBW_BW|14|9|5
+ ** BWBWBW_|15|9|6
+
+Popped from PQ :: W_BBWBW|14|12|2
+ ** WBB_WBW|18|14|4
+
+Popped from PQ :: BWBB_WW|14|7|7
+ ** BWBBW_W|15|8|7
+ ** BWBBWW_|16|9|7
+
+Popped from PQ :: BWBW_BW|14|9|5
+ ** BW_WBBW|14|11|3
+ ** BWBWWB_|16|11|5
+
+Popped from PQ :: WB_BWBW|14|11|3
+ ** WBB_WBW|16|12|4
+ ** WBWB_BW|16|13|3
+
+Popped from PQ :: BW_WBBW|14|11|3
+ ** _WBWBBW|14|13|1
+ ** B_WWBBW|15|12|3
+ ** BWW_BBW|15|12|3
+
+Popped from PQ :: BBWWBW_|14|7|7
+ ** BBWW_WB|14|9|5
+
+Popped from PQ :: _WBWBBW|14|13|1
+ ** W_BWBBW|15|14|1
+
+Popped from PQ :: BBWW_WB|14|9|5
+ ** BB_WWWB|16|11|5
+ ** BBW_WWB|15|10|5
+ ** BBWWW_B|15|10|5
+
+Popped from PQ :: BWWB_BW|15|11|4
+ ** BWWBB_W|17|12|5
+ ** BWWBWB_|17|13|4
+
+Popped from PQ :: BWBWBW_|15|9|6
+ ** BWBW_WB|15|11|4
+
+Popped from PQ :: BWBBW_W|15|8|7
+
+Popped from PQ :: W_BWBBW|15|14|1
+ ** WB_WBBW|17|15|2
+ ** WWB_BBW|17|16|1
+
+Popped from PQ :: BWB_WBW|15|10|5
+
+Popped from PQ :: BBWWW_B|15|10|5
+
+Popped from PQ :: BWBW_WB|15|11|4
+ ** BW_WBWB|15|13|2
+ ** BWB_WWB|16|12|4
+ ** BWBWW_B|16|12|4
+
+Popped from PQ :: WBB_BWW|15|10|5
+ ** WBBWB_W|17|12|5
+
+Popped from PQ :: BWW_BBW|15|12|3
+
+Popped from PQ :: BBW_WWB|15|10|5
+ ** B_WBWWB|15|12|3
+
+Popped from PQ :: BW_WBWB|15|13|2
+ ** _WBWBWB|15|15|0
+ ** B_WWBWB|16|14|2
+ ** BWW_BWB|16|14|2
+
+Popped from PQ :: BBWWWB_|15|9|6
+
+Popped from PQ :: B_WBWWB|15|12|3
+ ** _BWBWWB|15|13|2
+ ** BW_BWWB|16|13|3
+
+Popped from PQ :: _WBWBWB|15|15|0
+ ** W_BWBWB|16|16|0
+
+Popped from PQ :: B_WWBBW|15|12|3
+ ** _BWWBBW|15|13|2
+
+Popped from PQ :: _BWBWWB|15|13|2
+ ** WB_BWWB|17|15|2
+
+Popped from PQ :: _BWWBBW|15|13|2
+
+Popped from PQ :: BWBBWW_|16|9|7
+
+Popped from PQ :: WBB_WBW|16|12|4
+ ** WBBW_BW|17|13|4
+ ** WBBBW_W|20|14|6
+
+Popped from PQ :: WBWB_BW|16|13|3
+ ** WBW_BBW|16|14|2
+ ** WBWBB_W|18|14|4
+ ** WBWBWB_|18|15|3
+
+Popped from PQ :: BWBWWB_|16|11|5
+
+Popped from PQ :: BWB_WWB|16|12|4
+ ** B_BWWWB|18|14|4
+
+Popped from PQ :: BWBWW_B|16|12|4
+
+Popped from PQ :: BW_BWWB|16|13|3
+ ** _WBBWWB|16|15|1
+ ** BWWB_WB|18|15|3
+
+Popped from PQ :: W_BWBWB|16|16|0
+ ** WB_WBWB|18|17|1
+ ** WWB_BWB|18|18|0
+
+Popped from PQ :: BWW_BWB|16|14|2
+ ** BWWWB_B|18|16|2
+
+Popped from PQ :: WBW_BBW|16|14|2
+ ** W_WBBBW|16|16|0
+
+Popped from PQ :: _WBBWWB|16|15|1
+ ** W_BBWWB|17|16|1
+
+Popped from PQ :: BB_WWWB|16|11|5
+ ** _BBWWWB|16|13|3
+ ** B_BWWWB|16|12|4
+
+Popped from PQ :: W_WBBBW|16|16|0
+ ** _WWBBBW|17|17|0
+ ** WW_BBBW|17|17|0
+
+Popped from PQ :: B_BWWWB|16|12|4
+
+Popped from PQ :: B_WWBWB|16|14|2
+ ** _BWWBWB|16|15|1
+
+Popped from PQ :: _BBWWWB|16|13|3
+
+Popped from PQ :: _BWWBWB|16|15|1
+
+Popped from PQ :: BWBB_WW|16|9|7
+
+Popped from PQ :: WBB_BWW|17|12|5
+
+Popped from PQ :: BWWBWB_|17|13|4
+ ** BWWBW_B|17|14|3
+
+Popped from PQ :: WBBB_WW|17|11|6
+ ** WBBBW_W|18|12|6
+ ** WBBBWW_|19|13|6
+
+Popped from PQ :: WB_BWWB|17|15|2
+ ** WBB_WWB|19|16|3
+ ** WBWB_WB|19|17|2
+
+Popped from PQ :: W_BBWWB|17|16|1
+
+Popped from PQ :: WW_BBBW|17|17|0
+ ** WWBB_BW|21|19|2
+
+Popped from PQ :: BWWBW_B|17|14|3
+ ** BWW_WBB|17|16|1
+
+Popped from PQ :: WBBW_BW|17|13|4
+ ** WBBWWB_|19|15|4
+
+Popped from PQ :: BWWBB_W|17|12|5
+ ** BWWBBW_|18|13|5
+
+Popped from PQ :: BWW_WBB|17|16|1
+ ** B_WWWBB|19|18|1
+ ** BW_WWBB|18|17|1
+ ** BWWW_BB|18|17|1
+
+Popped from PQ :: WWB_BBW|17|16|1
+ ** WWBB_BW|19|17|2
+ ** WWBBB_W|21|18|3
+
+Popped from PQ :: _WWBBBW|17|17|0
+
+Popped from PQ :: WBBWB_W|17|12|5
+ ** WBBWBW_|18|13|5
+
+Popped from PQ :: WB_WBBW|17|15|2
+
+Popped from PQ :: WBB_WBW|18|14|4
+
+Popped from PQ :: WBWBWB_|18|15|3
+ ** WBWBW_B|18|16|2
+
+Popped from PQ :: B_BWWWB|18|14|4
+
+Popped from PQ :: WBWBB_W|18|14|4
+ ** WBWBBW_|19|15|4
+
+Popped from PQ :: BWWB_WB|18|15|3
+
+Popped from PQ :: WB_WBWB|18|17|1
+ ** WBW_BWB|19|18|1
+ ** WBBW_WB|22|19|3
+
+Popped from PQ :: WBWBW_B|18|16|2
+ ** WBW_WBB|18|18|0
+
+Popped from PQ :: WBBBW_W|18|12|6
+
+Popped from PQ :: BW_WWBB|18|17|1
+ ** _WBWWBB|18|19|4294967295
+
+Popped from PQ :: WBBWBW_|18|13|5
+ ** WBBW_WB|18|15|3
+
+Popped from PQ :: BWWBBW_|18|13|5
+
+Popped from PQ :: WBW_WBB|18|18|0
+ ** W_WBWBB|18|20|4294967294
+ ** WB_WWBB|19|19|0
+ ** WBWW_BB|19|19|0
+
+Popped from PQ :: BWWWB_B|18|16|2
+ ** BWWWBB_|20|17|3
+
+Popped from PQ :: _WBWWBB|18|19|4294967295
+ ** W_BWWBB|19|20|4294967295
+
+Popped from PQ :: WBBW_WB|18|15|3
+ ** WBBWW_B|19|16|3
+
+Popped from PQ :: W_WBWBB|18|20|4294967294
+ ** _WWBWBB|19|21|4294967294
+ ** WW_BWBB|19|21|4294967294
+
+Popped from PQ :: WWB_BWB|18|18|0
+ ** WW_BBWB|18|19|4294967295
+ ** WWBB_WB|20|19|1
+ ** WWBWB_B|20|20|0
+
+Popped from PQ :: BWWW_BB|18|17|1
+
+Popped from PQ :: WW_BBWB|18|19|4294967295
+ ** _WWBBWB|20|21|4294967295
+ ** W_WBBWB|19|20|4294967295
+
+Popped from PQ :: WBBBWW_|19|13|6
+
+Popped from PQ :: WWBB_BW|19|17|2
+ ** WWBBWB_|21|19|2
+
+Popped from PQ :: B_WWWBB|19|18|1
+ ** _BWWWBB|19|19|0
+
+Popped from PQ :: WBWBBW_|19|15|4
+
+Popped from PQ :: WBWB_WB|19|17|2
+
+Popped from PQ :: _BWWWBB|19|19|0
+
+Popped from PQ :: WBW_BWB|19|18|1
+ ** WBWWB_B|21|20|1
+
+Popped from PQ :: WBBWWB_|19|15|4
+
+Popped from PQ :: W_WBBWB|19|20|4294967295
+
+Popped from PQ :: WW_BWBB|19|21|4294967294
+ ** WWB_WBB|21|22|4294967295
+ ** WWWB_BB|21|23|4294967294
+
+Popped from PQ :: WBBWW_B|19|16|3
+
+Popped from PQ :: _WWBWBB|19|21|4294967294
+
+Popped from PQ :: WB_WWBB|19|19|0
+
+Popped from PQ :: WBWW_BB|19|19|0
+ ** WBWWBB_|23|21|2
+
+Popped from PQ :: WBB_WWB|19|16|3
+
+Popped from PQ :: W_BWWBB|19|20|4294967295
+
+Popped from PQ :: WBBBW_W|20|14|6
+
+Popped from PQ :: WWBWB_B|20|20|0
+ ** WWBW_BB|20|21|4294967295
+ ** WWBWBB_|22|21|1
+
+Popped from PQ :: WWBB_WB|20|19|1
+ ** WWBBW_B|21|20|1
+ ** WWBBBW_|24|21|3
+
+Popped from PQ :: _WWBBWB|20|21|4294967295
+
+Popped from PQ :: WWBW_BB|20|21|4294967295
+ ** WW_WBBB|20|23|4294967293
+
+Popped from PQ :: BWWWBB_|20|17|3
+
+Popped from PQ :: WW_WBBB|20|23|4294967293
+And that's the GOAL !!
+// --- STATISTICS --- //
+Goal -	WW_WBBB
+f(n) -	20
+Path -	BBB_WWW
+	* BBBW_WW
+	** BB_WBWW
+	*** B_BWBWW
+	**** BWB_BWW
+	***** BWBWB_W
+	****** BWBWBW_
+	******* BWBW_WB
+	******** BW_WBWB
+	********* _WBWBWB
+	********** W_BWBWB
+	*********** WWB_BWB
+	************ WWBWB_B
+	************* WWBW_BB
+	************** WW_WBBB
+Total number of nodes in the path 	:: 15
+Total number of nodes expanded 		:: 142
+Size of each node(B) 			:: 40
+Memory consumed(B) 			:: 5680
+Time of execution(micro-sec) 		:: 15119
+
+
+--------------------------------------
+-------------- SUMMARY ---------------
+--------------------------------------
+As per the results above, the best heuristic is "Number of misplaced tiles" because:
+1. Time of execution is minimum
+2. The number of nodes expanded are minimum too
+3. Since the number of nodes expanded are same, so we can ignore this factor

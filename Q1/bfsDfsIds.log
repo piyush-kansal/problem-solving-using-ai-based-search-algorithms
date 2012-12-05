@@ -1,0 +1,74 @@
+--------------------------------------
+-------- Doing BFS Traversal ---------
+--------------------------------------
+Nodes Expanded :: 
+[0, 0] [4, 0] [0, 3] [1, 3] [4, 3] [3, 0] [4, 3] [1, 0] [4, 3] [3, 3] [0, 1] [4, 2] [4, 1] [0, 2] [2, 3] And thats the GOAL !!
+
+Path -	0, 0
+	* 4, 0
+	** 1, 3
+	*** 1, 0
+	**** 0, 1
+	***** 4, 1
+	****** 2, 3
+
+Total number of nodes in the path 	:: 7
+Total number of nodes expanded 		:: 14
+Size of each node(B) 			:: 56
+Memory consumed(B) 			:: 784
+Time of execution(micro-sec) 		:: 59
+
+--------------------------------------
+-------- Doing DFS Traversal ---------
+--------------------------------------
+Nodes Expanded :: 
+[0, 0] [4, 0] [1, 3] [1, 0] [0, 1] [4, 1] [2, 3] And thats the GOAL !!
+
+Path -	0, 0
+	* 4, 0
+	** 1, 3
+	*** 1, 0
+	**** 0, 1
+	***** 4, 1
+	****** 2, 3
+
+Total number of nodes in the path 	:: 7
+Total number of nodes expanded 		:: 6
+Size of each node(B) 			:: 56
+Memory consumed(B) 			:: 336
+Time of execution(micro-sec) 		:: 22
+
+--------------------------------------
+-------- Doing IDS Traversal ---------
+--------------------------------------
+Nodes Expanded :: 
+Depth 0 :: 
+Depth 1 :: [0, 0] 
+Depth 2 :: [0, 0] [4, 0] [0, 3] 
+Depth 3 :: [0, 0] [4, 0] [1, 3] [4, 3] [0, 3] [3, 0] 
+Depth 4 :: [0, 0] [4, 0] [1, 3] [1, 0] [0, 3] [4, 3] 
+Depth 5 :: [0, 0] [4, 0] [1, 3] [1, 0] [0, 1] [0, 3] [3, 0] [4, 3] 
+Depth 6 :: [0, 0] [4, 0] [1, 3] [1, 0] [0, 1] [4, 1] [2, 3] And thats the GOAL !!
+
+Path -	0, 0
+	* 4, 0
+	** 1, 3
+	*** 1, 0
+	**** 0, 1
+	***** 4, 1
+	****** 2, 3
+
+Total number of nodes in the path 	:: 7
+Total number of nodes expanded 		:: 30
+Size of each node(B) 			:: 56
+Memory consumed(B) 			:: 1680
+Time of execution(micro-sec) 		:: 90
+
+--------------------------------------
+-------------- SUMMARY ---------------
+--------------------------------------
+As per the state space (File: State Space.jpg) and the results above, the best strategy is DFS because of the following reasons:
+1. The state space is limited
+2. Time of execution is minimum
+3. Memory consumption is minimum
+4. Number of nodes expanded is minimum

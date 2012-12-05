@@ -1,0 +1,40 @@
+Enter a postive value of L :: 6
+Enter a positive value of M :: 4
+
+Golomb ruler created successfully for L=6 and M=4 !!
+4 1 0 6 
+
+// --- STATISTICS --- //
+Consistency checks performed :: 63
+Time of execution(micro-sec) :: 289
+
+
+Enter a postive value of L :: 8
+Enter a positive value of M :: 4
+
+Golomb ruler created successfully for L=8 and M=4 !!
+3 1 0 8 
+
+// --- STATISTICS --- //
+Consistency checks performed :: 42
+Time of execution(micro-sec) :: 277
+
+
+Enter a postive value of L :: 50
+Enter a positive value of M :: 10
+
+Golomb ruler cannot be formed for L=50 and M=10
+
+// --- STATISTICS --- //
+Consistency checks performed :: 2087639999
+Time of execution(micro-sec) :: 370207455
+
+
+Enter a postive value of L :: 75
+Enter a positive value of M :: 12
+
+pkansal@ubuntu:~/Documents/SBU/Sem 1/CSE537 - AI/Project/1/Q4$ ./csp | tee -a csp.log 
+Enter a postive value of L :: 75
+Enter a positive value of M :: 12
+pkansal@ubuntu:~/Documents/SBU/Sem 1/CSE537 - AI/Project/1/Q4$ ps -ef | grep csp
+pkansal   3065  2286 98 22:42 pts/1    01:21:10 ./csp
